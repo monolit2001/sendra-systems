@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="andreu paredes" >
+  <title>Kyodas smartech ( upgrade factory SL )</title>
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon2.ico">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <!-- Plugin CSS (de moment no el carreguem; canviem la row de projectes)-->
+  <!--<link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet"> -->
+  <!-- Theme CSS -->
+  <link href="css/creative.min.css" rel="stylesheet">
+  <link href="css/estils.css" rel="stylesheet">
+  <!-- Call to Recaptcha -->
+  <script src="../www.google.com/recaptcha/api.js"></script>
+  <script>
+    window.onload=function()
+    {
+      var recaptcha=document.forms["form_contacte"]["g-recaptcha-response"];
+      recaptcha.required=true;
+      recaptcha.oninvalid=function(e){alert("");}
+    }
+  </script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','../www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-29141998-24', 'auto');
+    ga('send', 'pageview');
+    </script>
+</head>
+<body id="page-top">
+  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top" style="background-color:white;">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i></button>
+        <a class="navbar-brand page-scroll" href="#page-top"><img class="img-responsive" src="img/logo2.png"></a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class="page-scroll" href="./index.html" style="">Nosotros</a></li>
+          <li><a class="page-scroll" href="#services" style="">Servicios</a></li>
+          <li><a class="page-scroll" href="/#about3" style="">Clientes </a></li>
+          <li><a class="page-scroll" href="#contact" style="">Contacto</a></li>
+          <li class="dropdown"><span id="idiomes" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-globe" aria-hidden="true"></i></span>
+            <ul class="dropdown-menu">
+              <li><a href="#">CATALÀ<!-- <img class="flag_lang" src="lang/flag_ca.png"> - CA --></a></li>
+              <li><a href="#">CASTELLANO<!-- <img class="flag_lang" src="lang/flag_es.png"> - ES --></a></li>
+              <li><a href="#">ENGLISH<!-- <img class="flag_lang" src="lang/flag_en_uk.png"> - EN --></a></li>
+              <!-- <li><a href="index.php?idi=en"><img class="flag_lang" src="lang/flag_en_us.png"> - EN </a></li> -->
+            </ul>
+          </li>              
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+  <header>
+    <div class="header-content">
+      <div class="header-content-inner" style="padding:20px;border-radius:20px;background-color:rgba(0,0,0,0.5)">
+        <div>
+          <h1 id="homeHeading">desarrollo de soluciones para la industria 4.0 basadas en realidad aumentada y realidad virtual 
+</h1><br>
+          <p style="color:white;">Nuestras herramientas permiten que los técnicos tengan acceso instantáneo a la información esencial de forma visual e interactiva.
+
+Consigue la máxima eficiencia para tu organización estandarizando las operaciones técnicas, minimizando los tiempos de las intervenciones y los errores.”<br>Kyodas Smartech *digitaliza su Know-how</p>
+        </div>
+        <a href="#about" class="btn btn-primary btn-xl page-scroll">Quienes somos</a>
+      </div>
+    </div>
+  </header>
+  <section class="bg-primary" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-lg-offset-2 text-center">
+          <h2 class="section-heading">Creamos soluciones integrales a medida de su empresa</h2>
+          <hr class="light">
+          <p class="text-faded">Kyodas *The best way of learning is by doing  </p>
+          <a href="index.html#about3" class="page-scroll btn btn-default btn-xl sr-button">Nuestros servicios</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+ 
+
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Si deseas ampliar información o conocer más acerca de nuestros productos y servicios</h2>
+          <hr class="primary">
+        </div>
+        <div class="col-md-12 text-center">
+          <div class="col-lg-3 contact-left">
+            <p class="dades-contacte">Interesado en nuestras soluciones? Genial!<br>Puede llamarnos o enviarnos un correo electrónico</p>
+            <p class="dades-contacte"><i class="fa fa-phone fa-3x sr-contact"></i> 694 472 546</p>
+            <p class="dades-contacte"><i class="fa fa-envelope-o fa-3x sr-contact"></i><a href="mailto:info@kyodas.com"> info@kyodas.com</a></p>
+          </div>
+        </div>
+        <!--
+        <div class="col-md-8">
+          <form action="" method="post" name="form_contacte" id="form_contacte">
+            <div class="row">
+              <div class="col-sm-6 form-group">
+                <label>< ?php echo($lang['contacte_nom']); ? ></label>
+                <input class="form-control" id="nom" name="nom" placeholder="< ?php echo($lang['contacte_placeholder_nom']); ? >" onfocus="this.placeholder = ''" type="text" required="">
+              </div>
+              <div class="col-sm-6 form-group">
+                <label>< ?php echo($lang['contacte_email']); ? ></label>
+                <input class="form-control" id="email" name="email" placeholder="< ?php echo($lang['contacte_placeholder_mail']); ? >" onfocus="this.placeholder = ''" type="email" required="">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 form-group">
+                <label>< ?php echo($lang['contacte_missatge']); ? ></label>
+                <textarea class="form-control" id="missatge" name="missatge" placeholder="< ?php echo($lang['contacte_placeholder_missatge']); ? >" onfocus="this.placeholder = ''" rows="8" required=""></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 form-group">
+                <div class="g-recaptcha" name="recaptcha" id="recaptcha" data-sitekey="6LcN9iMTAAAAACamLewC4YnPYXJzKukqBAyF1oku"></div>
+                <input type="hidden" name="missatge_enviat"><br>
+                <button class="btn pull-left" type="submit">< ?php echo($lang['contacte_button']); ? ></button>
+              </div>
+            </div>
+          </form>
+        </div>
+      -->
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container text-center">
+      <!-- Trigger the modal with a tag <a> link -->
+      <p style="color:#333;">
+        <a href="#" class="footer-avisos" type="button" data-toggle="modal" data-target="#avislegal">Aviso Legal</a> |
+        <a href="#" class="footer-avisos" type="button" data-toggle="modal" data-target="#accessibilitat">Accesibilidad</a> |
+        <a href="#" class="footer-avisos" type="button" data-toggle="modal" data-target="#credits">Créditos</a> |
+        <a href="#" class="footer-avisos" type="button" data-toggle="modal" data-target="#politica">Privacidad</a> |
+        <a href="#" class="footer-avisos" type="button" data-toggle="modal" data-target="#cookies">Cookies</a>
+      </p>
+
+      <!-- Modal AVIS LEGAL -->
+      <div class="modal fade" id="avislegal" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Aviso Legal</h4>
+            </div>
+            <div class="modal-body">
+              <p><strong>Titularidad del portal</strong></p>
+
+<br><p>Upgrade factory , SL (En adelante, el titular), es el titular de este portal web www.kyodas.com (en adelante, el Portal). Su domicilio se encuentra en Av. Osona , 24 08503 Gurb, Barcelona y su CIF es B63125041.</p>
+
+<br><p><br><p>Los datos del registro del titular están en el Registro Mercantil de Barcelona: vol. 35.381, full B265722</p></p>
+
+<br><p>Puede ponerse en contacto con el titular del Portal a trav&eacute;s del siguiente e-mail: info@kyodas.com.</p>
+
+<br><p>El nombre de dominio a trav&eacute;s del cual se accede al presente Portal es titularidad de Upgrade factory , SL, y por tanto est&aacute; prohibida su utilizaci&oacute;n en conexi&oacute;n con contenidos, productos y / o servicios que no sean titularidad de Upgrade factory , SL, ya que puede causar confusi&oacute;n entre los usuarios finales o incluso el descr&eacute;dito de Upgrade factory , SL.</p>
+
+<br><p>&nbsp;</p>
+
+<br><p><strong>Objeto</strong></p>
+
+<br><p>El presente Aviso Legal tiene por objeto establecer las Condiciones Generales que regulan el acceso, navegaci&oacute;n y uso de dicho portal por parte de todos los usuarios. Si el usuario no est&aacute; de acuerdo con las mismas, debe abandonar este sitio web de Upgrade factory , SL de forma inmediata.</p>
+
+<br><p>El hecho de acceder a este Portal supone el conocimiento y aceptaci&oacute;n &iacute;ntegra por parte del usuario de los t&eacute;rminos y condiciones de uso del Portal, en la versi&oacute;n publicada en el momento en que se acceda al sitio web.</p>
+
+<br><p>Upgrade factory , SL se reserva el derecho de modificar o actualizar en cualquier momento, las presentes Condiciones Generales y, en general, los elementos que integran el dise&ntilde;o y la configuraci&oacute;n del Portal, tanto en la versi&oacute;n en catal&aacute;n como en otros idiomas, si las hubiera. Por ello, Upgrade factory , SL recomienda a los usuarios que lean detenidamente las presentes condiciones cada vez que accedan al Portal.</p>
+
+<br><p>El Titular tambi&eacute;n se reserva la facultad de ofrecer determinados productos o servicios exclusivamente a los Usuarios registrados a trav&eacute;s del Portal y que acepten expresamente las condiciones particulares que sean de aplicaci&oacute;n.</p>
+
+<br><p>Asimismo, el Titular se reserva la facultad de dar por terminado, suspender o interrumpir, en cualquier momento y sin necesidad de preaviso, el acceso a los productos, servicios y / o contenidos del Portal, as&iacute; como la configuraci&oacute;n misma del Portal, prestaciones , productos, servicios y contenidos, sin posibilidad por parte del Usuario de reclamar ni exigir indemnizaci&oacute;n a que, en lo menester, renuncia. En particular, el Portal puede dejar de estar operativo con motivo de operaciones de mantenimiento, reparaci&oacute;n, actualizaci&oacute;n, mejora y / o adecuaci&oacute;n a cambios t&eacute;cnicos, operativos y / o legales. Despu&eacute;s de esta terminaci&oacute;n, seguir&aacute;n vigentes las prohibiciones, restricciones y limitaciones contenidas en el presente Aviso Legal y / o en cualesquiera condiciones particulares que sean de aplicaci&oacute;n.</p>
+
+<br><p>&nbsp;</p>
+
+<br><p><strong>Acceso y uso del portal</strong></p>
+
+<br><p>El Usuario declara que entiende y comprende las Condiciones Generales aqu&iacute; enunciadas y que dispone de la capacidad legal necesaria para contratar y obligarse en los t&eacute;rminos establecidos en las mismas y para utilizar este Portal de conformidad con las condiciones generales establecidas.</p>
+
+<br><p>El simple acceso al Portal, el uso de los contenidos ofrecidos en el mismo, as&iacute; como: la cumplimentaci&oacute;n de formularios, el env&iacute;o de solicitudes de informaci&oacute;n y, en general, cualquier acto de naturaleza similar a los anteriores implicar&aacute;, por parte de los que naveguen en el Portal, la adquisici&oacute;n de la consideraci&oacute;n de Usuario y la aceptaci&oacute;n, sin reservas, de todas y cada una de las normas integrantes del presente Aviso Legal.</p>
+
+<br><p>El acceso y utilizaci&oacute;n de determinados apartados de este Portal requieren el previo registro como Usuario Autorizado. En estos casos, el Usuario declara que toda la informaci&oacute;n suministrada por &eacute;l en el curso de la utilizaci&oacute;n de este Portal es verdadera, completa y precisa.</p>
+
+<br><p>El Titular advierte al Usuario que podr&aacute;n ser rechazadas las peticiones de registro realizadas de forma fraudulenta o en vulneraci&oacute;n de normas o derechos de terceros, pudiendo adem&aacute;s ser dados de baja como Usuarios Autorizados si infringen las presentes condiciones legales o las advertencias y requerimientos que les exija el titular respecto a comportamientos contrarios a las pol&iacute;ticas y normas que rigen este portal.</p>
+
+<br><p>En todo caso, el acceso, navegaci&oacute;n y uso del Portal, as&iacute; como todo acceso del Usuario Autorizado bajo su nombre de usuario / acceso y contrase&ntilde;a o desde su cuenta, se hace bajo la &uacute;nica y exclusiva Usuario, por lo que &eacute;ste se compromete a observar de forma diligente y fiel cualquier instrucci&oacute;n adicional relativa al uso del Portal y sus contenidos. Especialmente, el Usuario se obliga a usar los contenidos del Portal de forma diligente, correcta y l&iacute;cita, de conformidad con la legislaci&oacute;n vigente y, en particular, se abstendr&aacute; de utilizar el portal o sus contenidos:</p>
+
+<ol style='text-align:left;'>
+  <li>&nbsp;&nbsp;&nbsp; Con fines contrarios a la ley, a la moral, a las buenas costumbres generalmente aceptadas o al orden p&uacute;blico ya las instrucciones recibidas del Titular.</li>
+  <li>&nbsp;&nbsp;&nbsp; Con fines lesivos de los leg&iacute;timos derechos de terceros.</li>
+  <li>&nbsp;&nbsp;&nbsp; Para remitir publicidad o comunicaciones con fines de venta directa o con cualquier otra clase de finalidad comercial, mensajes no solicitados dirigidos a una pluralidad de personas con independencia de su finalidad.</li>
+  <li>&nbsp;&nbsp;&nbsp; Con fines comerciales o para divulgar de cualquier modo la informaci&oacute;n obtenida.</li>
+</ol>
+
+<br><p>&nbsp;</p>
+
+<br><p><strong>Registro, acceso y uso del portal</strong></p>
+
+<br><p>El Usuario que voluntariamente se registre en el Portal se hace responsable de tratar de forma confidencial y custodiar adecuadamente su clave de usuario y contrase&ntilde;a de acceso, en tanto que son personales e intransferibles, evitando as&iacute; el acceso de terceras personas no autorizadas el Portal. En virtud de lo anterior, es obligaci&oacute;n del usuario notificar inmediatamente al titular, en caso de que conozca o sospeche del uso de su contrase&ntilde;a por terceros, o cuando se haya producido cualquier hecho que haga posible el uso indebido de su contrase&ntilde;a, para proceder a su inmediata cancelaci&oacute;n.</p>
+
+<br><p><br />
+<strong>Propiedad intelectual e industrial</strong></p>
+
+<br><p>Todos los contenidos del Portal, entendiendo por estos a t&iacute;tulo meramente enunciativo y sin que la siguiente enumeraci&oacute;n sea un numerus clausus, los textos, las fotograf&iacute;as, gr&aacute;ficos, im&aacute;genes, iconos, tecnolog&iacute;a, la estructura de navegaci&oacute;n, el software , contenidos audiovisuales o sonoros, el dise&ntilde;o gr&aacute;fico y los c&oacute;digos fuente, los &iacute;ndices, las marcas, logotipos, expresiones e informaciones y, en general, cualquier otra creaci&oacute;n protegida por las normas nacionales y tratados internacionales sobre propiedad intelectual e industrial (en adelante, las contenidos) son propiedad de Upgrade factory , SL, o de terceros, de los que Upgrade factory , SL ha obtenido la correspondiente licencia de uso.</p>
+
+<br><p>Quedan reservados todos los derechos de propiedad intelectual e industrial sobre los Contenidos. El uso, explotaci&oacute;n o utilizaci&oacute;n no autorizada de los Contenidos dar&aacute; lugar a las responsabilidades legales que procedan.</p>
+
+<br><p>Especialmente est&aacute; prohibido el uso de las marcas, nombres comerciales o signos distintivos propiedad del Titular o de terceros, sin el previo consentimiento por escrito de su titular.</p>
+
+<br><p>&nbsp;</p>
+
+<br><p><strong>Responsabilidades del titular</strong></p>
+
+<br><p>El Titular declara que ha adoptado todas las medidas necesarias y razonables, dentro de sus posibilidades y del estado de la tecnolog&iacute;a, para garantizar el funcionamiento del Portal y evitar la existencia y / o transmisi&oacute;n de virus y dem&aacute;s componentes da&ntilde;inos a los Usuarios.</p>
+
+<br><p>Asimismo, el titular pondr&aacute; todos los medios razonables a su disposici&oacute;n para comprobar la veracidad, exactitud, adecuaci&oacute;n, idoneidad, exhaustividad y actualidad de la informaci&oacute;n y contenidos suministrados en el Portal.</p>
+
+<br><p>&nbsp;</p>
+
+<br><p><strong>Exclusi&oacute;n de garant&iacute;as</strong></p>
+
+<br><p>El Usuario conoce y acepta expresamente que el titular no otorga ninguna garant&iacute;a de cualquier tipo, ya sea expresa o impl&iacute;cita, sobre la fiabilidad, utilidad o exactitud de la informaci&oacute;n publicada y / o suministrada en el Portal con relaci&oacute;n a los productos y / o servicios de Upgrade factory , SL.</p>
+
+<br><p>En particular, el Titular no garantiza ni se hace responsable de:</p>
+
+<ol style='text-align:left;'>
+  <li>&nbsp;&nbsp;&nbsp; La falta de disponibilidad o accesibilidad del Portal o de continuidad de los contenidos del Portal.</li>
+  <li>&nbsp;&nbsp;&nbsp; La existencia de interrupciones, errores en el acceso al Portal o mal funcionamiento del Portal, as&iacute; como problemas t&eacute;cnicos o fallos que se produzcan durante la conexi&oacute;n a Internet.</li>
+  <li>&nbsp;&nbsp;&nbsp; La ausencia de virus y otros elementos inform&aacute;ticos da&ntilde;inos en el Portal o servidor que lo suministra. Corresponde al Usuario, en su caso, la disponibilidad de medios adecuados para la detecci&oacute;n o desinfecci&oacute;n de programas inform&aacute;ticos da&ntilde;inos.</li>
+  <li>&nbsp;&nbsp;&nbsp; La invulnerabilidad del Portal y de las medidas de seguridad que se adopten en el mismo.</li>
+  <li>&nbsp;&nbsp;&nbsp; La inexistencia de errores en los contenidos.</li>
+  <li>&nbsp;&nbsp;&nbsp; La adecuaci&oacute;n para un objetivo o fin particular del Portal y de la informaci&oacute;n publicada y / o suministrada con relaci&oacute;n a los productos o servicios postventa de Upgrade factory , SL.</li>
+  <li>&nbsp;&nbsp;&nbsp; Las decisiones tomadas a partir de la informaci&oacute;n suministrada en el Portal, ni de los da&ntilde;os y perjuicios para el Usuario o para terceros con motivo de actuaciones que tengan como &uacute;nico fundamento la informaci&oacute;n obtenida en el portal.</li>
+  <li>&nbsp;&nbsp;&nbsp; De los da&ntilde;os producidos en los equipos inform&aacute;ticos de los usuarios o de terceros durante la prestaci&oacute;n del servicio del Portal.</li>
+  <li>&nbsp;&nbsp;&nbsp; Cualesquiera otros da&ntilde;os que, en su caso puedan causar por funcionamiento defectuoso del Portal, incluyendo, entre otros, da&ntilde;os directos, indirectos, p&eacute;rdidas o perjuicios derivados de una reducci&oacute;n de beneficios, de la interrupci&oacute;n del negocio o p&eacute;rdida de informaci&oacute;n, entre otros.</li>
+  <li>&nbsp;&nbsp;&nbsp; Los comentarios u opiniones expresadas por los Usuarios y / o terceros en el Portal, si las hay. Upgrade factory , SL se reserva el derecho a eliminar los comentarios que puedan resultar ofensivos, inadecuados o denigrantes. Tambi&eacute;n se reserva el derecho a bloquear e impedir los futuros comentarios provenientes de los autores de estos comentarios.</li>
+</ol>
+
+<br><p>&nbsp;</p>
+
+<br><p><strong>Enlaces</strong></p>
+
+<br><p>El Titular puede ofrecer a su Portal enlaces, directa o indirectamente, a recursos o p&aacute;ginas web de Internet que se encuentran fuera del Portal. En ning&uacute;n caso estos enlaces deben presuponer que haya acuerdos con sus responsables, ni la recomendaci&oacute;n de Upgrade factory , SL la contrataci&oacute;n de productos y / o servicios que se ofrezcan.</p>
+
+<br><p>El Titular no tiene facultad ni medios humanos ni t&eacute;cnicos para conocer, controlar ni aprobar toda la informaci&oacute;n, contenidos, productos o servicios facilitados por otras p&aacute;ginas web a las que se puedan establecer enlaces desde el Portal. En consecuencia, el Titular no asume ning&uacute;n tipo de responsabilidad por cualquier aspecto relativo a las p&aacute;ginas web a las que se pudieran establecer un enlace desde el Portal, en concreto, a t&iacute;tulo enunciativo y no exhaustivo, sobre su funcionamiento, acceso, datos, informaci&oacute;n, archivos, calidad y fiabilidad de sus productos y servicios, sus propios enlaces y / o cualquiera de sus contenidos, en general. Los Usuarios que utilicen estos enlaces deber&aacute;n consultar las condiciones legales aplicables a los sitios web de destino.</p>
+
+<br><p>Para el caso de que cualquier Usuario, entidad o p&aacute;gina web deseara establecer alg&uacute;n tipo de enlace con destino al Portal, con prioridad a realizar este enlace deber&aacute; obtener una autorizaci&oacute;n expresa y por escrito del Titular y el enlace deber&aacute; ser absoluto y completo, en el sentido de que se realice en la p&aacute;gina principal de Upgrade factory , SL, abarcando toda la extensi&oacute;n de la p&aacute;gina principal del Portal.</p>
+
+<br><p>En caso de que la entidad que realizara el enlace desde su p&aacute;gina web en el Portal de Upgrade factory , SL, tambi&eacute;n deseara incluir en su p&aacute;gina web la marca, denominaci&oacute;n, nombre comercial, r&oacute;tulo, logotipo, o cualquier otro signo identificativo del Titular y / o del Portal, necesitara la previa autorizaci&oacute;n expresa y por escrito de Upgrade factory , SL.</p>
+
+<br><p>&nbsp;</p>
+
+<br><p><strong>Nulidad</strong></p>
+
+<br><p>En caso de que el titular no ejerciera cualquier derecho o acci&oacute;n reconocida en este Aviso legal y / o Pol&iacute;tica de Privacidad, esto no constituir&aacute; una renuncia al mismo, salvo reconocimiento y acuerdo que deber&aacute; ser por escrito de su parte.</p>
+
+<br><p><br />
+<strong>Legislaci&oacute;n y jurisdicci&oacute;n</strong></p>
+
+<br><p>La ley aplicable en caso de disputa o conflicto de interpretaci&oacute;n de los t&eacute;rminos que conforman este Aviso Legal y Pol&iacute;tica de Privacidad, as&iacute; como cualquier cuesti&oacute;n relacionada con los servicios de este Portal, ser&aacute; la ley espa&ntilde;ola a la que se someten expresamente las partes, siendo competentes para la resoluci&oacute;n de todos los conflictos derivados o relacionados con su uso los Juzgados y Tribunales de Barcelona.</p>
+
+<br><p>versi&oacute;n 1</p>
+
+<br><p>Este Aviso Legal y la Pol&iacute;tica de Privacidad son de 19 de mayo de 2021.</p>
+
+<br><p>&nbsp;</p>            </div>
+            <!--<div class="modal-footer"><button type="button" class="btn btn-default modal-avisos" data-dismiss="modal">D'acord</button></div>-->
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal ACCESSIBILITAT -->
+      <div class="modal fade" id="accessibilitat" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Accesibilidad</h4>
+            </div>
+            <div class="modal-body">
+              <h5>Objetivos</h5><p> Nuestro objetivo es que todas las personas, con independencia de su discapacidad puedan navegar por las páginas de este dominio sin encontrar dificultades de acceso.</p><p>Para conseguir este objetivo, se tienen en cuenta las pautas de accesibilidad (Web Content Accessibility Guidelines) establecidas por el grupo de trabajo WAI (Web Accessibilitty Initiative) perteneciente al W3C (World Wide Web Consortium).</p><h5> Soluciones adoptadas</h5><p>Algunas de las funcionalidades que se han implementado en esta web para permitir el correcto acceso a todos los contenidos son:</p><p>Las características visuales del portal (tipo de letra, color de la fuente y fondo) se han definido mediante hojas de estilos o Cascade Style Sheet (CSS) para que el usuario pueda ajustar el texto a sus preferencias . Los tamaños de las fuentes se han definido con unidades relativas para que pueda ampliar o disminuir desde las opciones del navegador. Las páginas tienen una estructura clara, tanto para los usuarios que acceden desde un dispositivo convencional (pantalla ordenador, portátil, smartphone, tableta, etc ...), así como por los usuarios que leen la información mediante un lector de pantalla, usuarios que desactivan la hoja de estilos, etc. Bajo este objetivo, se han definido los encabezados de sección (h1-h6), las listas (ul, li) y todos los elementos que ayudan a la comprensión general del sitio web.</p><h5> Diferentes formatos y nuevas tecnologías</h5><p>Aprovechando el gran avance de las nuevas tecnologías, se ofrecen al usuario servicios, aplicaciones y documentos en nuevos formatos que en ocasiones requieren de un programa (software) o de un plugin para poder acceder a su contenido. En todos los casos el apoyo es gratuito y de acceso libre.</p><h5>Contactar</h5><p>Pedimos su colaboración para conseguir que el contenido del sitio web sea accesible para todas las personas. Por lo tanto, si encuentra dificultades de acceso a la información o desea transmitirnos alguna sugerencia de mejora, contacte con nosotros. Muchas gracias.</p>            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal CRÈDITS -->
+      <div class="modal fade" id="credits" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Créditos</h4>
+            </div>
+            <div class="modal-body">
+              <h5>Contenidos y propiedad intelectual</h5><p>Upgrade factory , SL<br>NIF B67.125.648<br>Av. Osona , 24<br>08503 Gurb (Barcelona)<br>info@kyodas.com<br>kyodas.com</p><h5>Programación web HTML / CSS / JS / XML / PHP, accesibilidad y CMS</h5><p>Upgrade factory , SL<br>NIF B63.125.041<br>Av. Osona , 24<br> 08503 Gurb (Barcelona)<br>info@kyodas.com<br>kyodas.com </p>            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal POLÍTICA -->
+      <div class="modal fade" id="politica" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Privacidad</h4>
+            </div>
+            <div class="modal-body">
+              <p>Por medio de este Portal se recogen, a trav&eacute;s de formularios incluidos en la p&aacute;gina web y nuestras direcciones de correo electr&oacute;nico, datos de car&aacute;cter personal necesarios para la gesti&oacute;n y mantenimiento de algunos de nuestros servicios. en ning&uacute;n caso se recogen datos de car&aacute;cter personal de los usuarios sin su conocimiento.</p>
+
+<br><p>Este Portal no utiliza cookies para recoger informaci&oacute;n de los usuarios, ni registra las direcciones IP de acceso. &Uacute;nicamente se utilizan cookies propias, de sesi&oacute;n, con finalidad t&eacute;cnica (aquellas que permiten al Usuario la navegaci&oacute;n a trav&eacute;s del sitio web y la utilizaci&oacute;n de las diferentes opciones y servicios que en ella existen).</p>
+
+<br><p>El Titular es el responsable de los ficheros en los que se incluir&aacute;n los datos personales recogidos y tratados desde esta p&aacute;gina web.</p>
+
+<br><p>Se informa que los datos de car&aacute;cter personal que se recaban directamente del Usuario a trav&eacute;s de los diferentes recursos disponibles en el Portal, ser&aacute;n tratados de forma confidencial y quedar&aacute;n incorporados a la base de datos de la que es responsable Upgrade factory , SL, con el fin de mantener una comunicaci&oacute;n &aacute;gil entre las partes a trav&eacute;s de correo postal y / o electr&oacute;nico, y no es ceder&aacute;n estos datos en ning&uacute;n caso a terceros, salvo en los casos de existencia de una obligaci&oacute;n legal.</p>
+
+<br><p>El Usuario podr&aacute; ejercitar en todo momento los derechos de acceso, rectificaci&oacute;n o supresi&oacute;n, cancelaci&oacute;n, limitaci&oacute;n y oposici&oacute;n, as&iacute; como el derecho a la portabilidad de los datos, dirigi&eacute;ndose a Upgrade factory , SL, a la dirección: Av. Osona,24 08503 Gurb, Barcelona, ​​o mediante el correo electr&oacute;nico info@kyodas.com, o solicit&aacute;ndolo por cualquier otro medio que quede constancia de su env&iacute;o y de la recepci&oacute;n.</p>
+
+<br><p>El Titular cumple con las directrices del Reglamento General de Protecci&oacute;n de Datos, de 27 de abril de 2016, y dem&aacute;s normativa vigente en cada momento y vela por garantizar un correcto uso y tratamiento de los datos personales del Usuario, para lo que ha establecido todos los medios t&eacute;cnicos a su alcance para evitar la p&eacute;rdida, mal uso, alteraci&oacute;n, acceso no autorizado y robo de los datos que el Usuario facilite al titular, sin perjuicio de que las medidas de seguridad en Internet no sean inexpugnables, as&iacute; como se ha establecido en su compa&ntilde;&iacute;a su propio Reglamento de Seguridad, el contenido es de obligado cumplimiento para todos los empleados de Upgrade factory , SL, presentes o futuros.</p>
+
+<br><p>Actualizado el 15 de mayo de 2021</p>            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal COOKIES -->
+      <div class="modal fade" id="cookies" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Cookies</h4>
+            </div>
+            <div class="modal-body">
+              <h5>Política de cookies</h5><p>A Upgrade factory , SL utilizamos cookies para facilitar el uso de la página web y en ningún caso éstas no almacenan ningún dato personal, ni ningún tipo de información que pudiera identificarse el.</p><h5>¿Qué son las cookies?</h5><p>las cookies son pequeños archivos de texto generados por las páginas web que usted visita que contienen los datos de sesión que pueden ser de utilidad, con posterioridad, para la página web. El uso de estas cookies es esencial para el funcionamiento de la web, aportando innumerables ventajas, como por ejemplo, recordar los datos de usuario y cada parte de su reserva a medida que avanza a través de la página web, así como mostrar el contenido adecuado en función de sus preferencias y opciones seleccionadas de viaje. También facilitan la prestación de servicios interactivos, facilitando la navegación y la usabilidad en la web, lo que significa que podemos mejorar su experiencia a través de estas.</p><h5>Cookies que utilizamos</h5><p>Las únicas cookies que utiliza nuestra página y su finalidad se detallan a continuación:</p><ul><li>cookies de navegación: son estrictamente necesarias y permiten al usuario la navegación a través de nuestra página web así como la utilización de las diferentes opciones o servicios que haya, como por ejemplo, controlar el tráfico y la comunicación de datos. La información que contienen es genérica y anónima, no se incluyen datos personales, ni se recoge información que identifique a los visitantes.</li><li>Cookies de terceros para el análisis estadístico, como Google Analytics, que de forma anónima permite realizar un seguimiento de la interacción del usuario dentro de la página web, saber cuántas veces visita el lugar, cuando fue la primera y última vez que visitó la web y plug-in, que permite compartir contenidos para la difusión de vídeos o sonido o compartir contenidos a través de redes sociales.</li></ul><h5>Desactivación de las cookies</h5><p>Usted puede permitir, bloquear o eliminar las cookies instaladas en el su equipo mediante la configuración de las opciones del navegador instalado en el dispositivo. Muchos navegadores permiten activar un modo privado a través del cual las cookies se borran después de la visita. Lea atentamente la sección de ayuda de su navegador para conocer más sobre cómo activar el modo de navegación privada. Podrá seguir visitando nuestras web aunque su navegador esté en modo privado si bien su navegación por nuestra web puede no ser óptima y algunas utilidades pueden no funcionar.</p>            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- jQuery -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="../cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <!-- Theme JavaScript -->
+  <script src="js/creative.min.js"></script>
+  <!-- <script>
+    document.getElementById("idiomes").addEventListener("click", function(event){
+        event.preventDefault()
+    });
+  </script> -->
+  <script>
+  $(document).ready(function(){
+      $("#idiomes").click(function(){
+          $("nav div.navbar-collapse").addClass("in");
+      });
+  });
+  </script>
+</body>
+
+
+</html>
